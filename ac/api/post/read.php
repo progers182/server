@@ -36,7 +36,7 @@ if ($num > 0) {
 
     }
 
-    echo json_encode($post_arr);
+    echo json_encode($post_arr); // an interesting comment
 } else {
     echo json_encode(['message' => 'no posts found']);
 }
