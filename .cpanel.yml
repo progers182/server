@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/phrogers/public_html/ac
+    - export DEPLOYPATH=/home/phrogers/public_html
     - /bin/cp -r * $DEPLOYPATH
