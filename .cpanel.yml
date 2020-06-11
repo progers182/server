@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/phrogers/repositories/ac_controller
+    - /bin/cp -R ac $DEPLOYPATH
