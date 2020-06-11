@@ -36,7 +36,7 @@ if ($num > 0) {
 
     }
 
-    echo json_encode(["test" => 'success']); // an interesting comment
+    echo json_encode($post_arr);
 } else {
     echo json_encode(['message' => 'no posts found']);
 }
