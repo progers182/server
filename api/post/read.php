@@ -25,7 +25,7 @@ if ($num > 0) {
     while($row = $result->fetch(PDO::FETCH_ASSOC)) {
 
         $post_item = [
-            'timestamp' => $row['timestamp'],
+            'status_time' => $row['status_time'],
             'curr_state' => $row['curr_state'],
             'device_id' => html_entity_decode($row['device_id']),
 
