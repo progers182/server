@@ -4,7 +4,7 @@ class Database
 {
     private $host = 'localhost';
     private $db_name = 'phrogers_ac_controller';
-    private $user = 'ph_rogers_acdb';
+    private $user = 'phrogers_acdb';
     private $pwd = 'Kipling2018';
     private $conn;
 
