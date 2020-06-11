@@ -3,9 +3,9 @@
 class Database
 {
     private $host = 'localhost';
-    private $db_name = 'ac_controller';
-    private $user = 'root';
-    private $pwd = '';
+    private $db_name = 'phrogers_ac_controller';
+    private $user = 'ph_rogers_acdb';
+    private $pwd = 'Kipling2018';
     private $conn;
 
     public function connect()
