@@ -1,0 +1,11 @@
+<html lang="eng">
+<?php
+
+$query = new \Server\DatabaseConnection\QueryBuilder;
+
+$query->select('s.state_id', 's.device_id')->from('states', 's')->where(['s.state_id' => 1]);
+echo $query->__toString();
+?>
+<div>test</div>
+
+</html>
